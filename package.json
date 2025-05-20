@@ -13,7 +13,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "deploy": "node scripts/deploy.js"
   },
   "eslintConfig": {
     "extends": [
@@ -31,5 +32,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@vercel/client": "^15.3.1",
+    "vercel": "^41.7.8"
   }
 }

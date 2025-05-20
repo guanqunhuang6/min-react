@@ -1,3 +1,3 @@
 export const Footer = () => <footer>
-  <a href="https://github.com/jackyzha0/min-react">Source code</a>
+  <a href="https://github.com/guanqunhuang6/min-react">Source code</a>
 </footer>
